@@ -21,3 +21,18 @@ function convertDaysToAge(number){
 }
 
 console.log(convertDaysToAge(3650))
+
+
+// 3. Write a function that takes three numbers and returns the largest of the three numbers.
+
+function getsLargestNumber(x,y,z){
+    if ((x>y) & (x>z)) {
+        return x;
+     } else if ((y>x) & (y>z)) {
+        return y;
+     } else {
+        return z;
+     }
+}
+
+console.log(getsLargestNumber(10,12,8))
